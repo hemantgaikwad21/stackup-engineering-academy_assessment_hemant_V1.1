@@ -1,0 +1,8 @@
+{
+  "run_at": "2026-11-16T13:01:58.378775",
+  "topic": "presight.project.events",
+  "total_messages_consumed": 0,
+  "critical_escalations_forwarded": 0,
+  "throughput_messages_per_second": 0.0,
+  "event_counts": {}
+}

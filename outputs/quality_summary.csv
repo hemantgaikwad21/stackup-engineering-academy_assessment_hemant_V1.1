@@ -1,0 +1,5 @@
+issue,count
+invalid_hire_date,8
+missing_email,10
+negative_experience,5
+duplicate_employee_id,0

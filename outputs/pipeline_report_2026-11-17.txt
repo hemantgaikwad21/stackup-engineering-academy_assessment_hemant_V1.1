@@ -1,0 +1,11 @@
+Pipeline Report
+===============
+
+Execution Date: 2026-11-17T02:00:00+00:00
+
+Projects: 500 -> 500
+Employees: 1000 -> 1000
+Transactions: 50000 -> 50000
+
+DQ Results:
+{'projects': {'completeness': {'project_id': 100.0, 'project_name': 100.0, 'department': 100.0, 'status': 100.0, 'start_date': 87.0, 'end_date': 42.8, 'budget': 93.6, 'actual_cost': 88.0, 'project_manager_id': 100.0, 'priority': 100.0, 'region': 100.0, 'budget_variance': 88.0, 'is_over_budget': 100.0, 'duration_days': 42.8}, 'uniqueness': {'project_id_unique': True}, 'validity': {'budget': 0, 'actual_cost': 0, 'budget_variance': 295, 'duration_days': 0}, 'consistency': {'invalid_date_order': 0, 'pass': True}}, 'employees': {'completeness': {'employee_id': 100.0, 'full_name': 100.0, 'email': 99.0, 'department': 100.0, 'role': 100.0, 'level': 100.0, 'hire_date': 100.0, 'salary': 100.0, 'manager_id': 100.0, 'region': 100.0, 'status': 100.0, 'years_experience': 100.0}, 'uniqueness': {'employee_id_unique': True}, 'validity': {'salary': 0, 'years_experience': 5}, 'consistency': {'status': 'Not Applicable'}}, 'transactions': {'completeness': {'transaction_id': 100.0, 'project_id': 100.0, 'vendor_id': 100.0, 'vendor_name': 100.0, 'category': 100.0, 'amount': 98.52, 'currency': 100.0, 'transaction_date': 100.0, 'approved_by': 95.11, 'payment_status': 100.0, 'invoice_ref': 100.0, 'notes': 78.5}, 'uniqueness': {'project_id_unique': False}, 'validity': {'amount': 0}, 'consistency': {'status': 'Not Applicable'}}}
